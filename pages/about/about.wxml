@@ -1,2 +1,10 @@
 <!--pages/about/about.wxml-->
-<web-view src="https://mp.weixin.qq.com/"></web-view>
+<view class='content'>
+     <text class='about'>
+             1: 关于诗词歌赋，在这里你可以学习古今中国的诗词歌赋等文学经典，感谢您的使用，希望您能给我们提供宝贵的意见，衷心祝您学得开心。
+              
+     </text>
+       <text class='about' style='margin-top:40px;'>
+             2: 关于诗词歌赋，如果侵犯了您的权益，请联系我们处理，我们的联系方式如下，qq:892466942,微信:15810757355。
+     </text>
+</view>

@@ -1,7 +1,6 @@
  
 page{
   background-color: rgb(229,229,229);
-  height: 100%;
 }
 
 .topView{
@@ -13,7 +12,7 @@ page{
 .perCell {
   margin-bottom: 2px;
   height: 35px;
-  width: 100%;
+  
   padding-top: 10px;
   padding-left: 5px;
   font-size: 16px;

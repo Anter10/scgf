@@ -15,10 +15,15 @@ sectionView{
 .singleItem{
    margin-bottom: 20px;
    padding: 5px;
+   padding-bottom: 8px;
    height: 140px;
    background-color:white;
    flex-direction: column;
   }
+
+.singleItem:active {
+    background-color: #ECECEC;
+}  
 
 .title{
    color:black;

@@ -7,7 +7,8 @@
     "pages/scinfo/scinfo",
     "pages/search/search",
     "pages/about/about",
-    "pages/shoucang/shoucang"
+    "pages/shoucang/shoucang",
+    "pages/classmsg/classmsg"
   ],
   "window": {
     "backgroundTextStyle": "light",

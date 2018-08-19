@@ -1,0 +1,2 @@
+<!--pages/classmsg/classmsg.wxml-->
+<text>{{title}}</text>

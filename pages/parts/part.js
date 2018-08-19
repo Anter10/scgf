@@ -11,36 +11,36 @@ Page({
             classes:[
               {
                 name: '小学诗词',
-                url: '/pages/Course/course',
+                url: '/pages/classmsg/classmsg',
                 icon: '/image/java_ico.png',
                 code: '10'
               },
               {
                 name: '初中诗词',
-                url: '/pages/Course/course',
+                url: '/pages/classmsg/classmsg',
                 icon: '/image/python_ico.png',
                 code: '11'
               },
               {
                 name: '高中诗词',
-                url: '/pages/Course/course',
+                url: '/pages/classmsg/classmsg',
                 icon: '/image/java_ico.png',
                 code: '10'
               },
               {
                 name: '小学文言文',
-                icon: '/image/python_ico.png',
+                url: '/pages/classmsg/classmsg',
                 code: '11'
               },
               {
                 name: '中学文言文',
-                url: '/pages/Course/course',
+                url: '/pages/classmsg/classmsg',
                 icon: '/image/java_ico.png',
                 code: '10'
               },
               {
                 name: '高中文言文',
-                icon: '/image/python_ico.png',
+                url: '/pages/classmsg/classmsg',
                 code: '11'
               }
             ]
@@ -50,34 +50,28 @@ Page({
         classes: [
           {
             name: '中国散文',
-            url: '/pages/Course/course',
+            url: '/pages/classmsg/classmsg',
             icon: '/image/java_ico.png',
             code: '10'
           },
           {
-            name: '国外散文',
-            url: '/pages/Course/course',
-            icon: '/image/python_ico.png',
-            code: '11'
-          },
-           {
             name: '中国名著',
-            url: '/pages/Course/course',
-            icon: '/image/python_ico.png',
-            code: '11'
-          },
-          {
-            name: '国外名著',
-            url: '/pages/Course/course',
+            url: '/pages/classmsg/classmsg',
             icon: '/image/python_ico.png',
             code: '11'
           },
           {
             name: '成语故事',
-            url: '/pages/Course/course',
+            url: '/pages/classmsg/classmsg',
             icon: '/image/python_ico.png',
             code: '11'
-          }    
+          },
+          {
+            name: '歇后语',
+            url: '/pages/classmsg/classmsg',
+            icon: '/image/python_ico.png',
+            code: '11'
+          }        
         ]
       }
       }

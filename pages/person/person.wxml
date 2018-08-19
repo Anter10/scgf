@@ -1,5 +1,5 @@
 <!--pages/person/person.wxml-->
-<view style='container'>
+<view >
       <view class='topView'>
            <view class="userinfo">
             <button style='margin-top:75px;' wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击登陆 </button>
@@ -10,7 +10,7 @@
           </view>
       </view>
 
-      <view>
+       
             <view class='perCell' bindtap='sc'>
                   <text>我的收藏</text>
                    <image  class="rightArrow" src="/pages/image/right.png" mode="cover"></image>
@@ -19,5 +19,5 @@
                   <text>关于</text>
                    <image  class="rightArrow"  src="/pages/image/right.png" mode="cover"></image>
             </view>
-      </view>
+       
 </view>
