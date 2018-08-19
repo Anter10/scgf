@@ -1,0 +1,71 @@
+/**index.wxss**/
+/**index.wxss**/
+.containerView {
+    
+    background-color:rgb(229, 229, 229);
+}
+
+sectionView{
+  height: 55px;
+  width: 100%;
+  background-color: white;
+}
+ 
+
+.singleItem{
+   margin-bottom: 20px;
+   padding: 5px;
+   height: 140px;
+   background-color:white;
+   flex-direction: column;
+  }
+
+.title{
+   color:black;
+   margin: 5px;
+   margin-left: 0px;
+   font-size: 18px;
+}
+
+.message{
+  color:black;
+  font-size: 16px;
+  display: -webkit-box !important;
+  overflow: hidden;
+  white-space: nowrap;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:3;
+  text-overflow: ellipsis;
+}
+
+.topView{
+  height: 30px;
+}
+.centerView{
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 35px;
+    position: relative;
+}
+
+.bottomView{
+    height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.author{
+  color:goldenrod;
+  float: right;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-right: 5px;
+  text-align: right;
+}
+
+
+lineView{
+  height: 1px;
+  background-color: grey;
+}

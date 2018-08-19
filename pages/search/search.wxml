@@ -1,0 +1,27 @@
+<!--pages/search/search.wxml-->
+<!--index.wxml-->
+<view class="section" style='margin-top:10px;'>
+     
+      <view  style="height:100%;item-align:center;margin-bottom:20px;"  scroll-y="true"  bindscrolltoupper="upper" bindscrolltolower="lower">
+            <view style='text-align: center;height:50px;padding-top:15px;padding-bottom:5px;background-color: rgb(229, 229, 229);'>
+                  <input bindconfirm="bindconfirm" confirm-type="search" type='text' style='background-color: white; height:40px;border-radius: 10px;margin-left:30px;margin-right:30px;' focus="true" maxlength="24" placeholder="请输入诗词/作者"/>  
+            </view>
+      </view>
+        <view style='align-items: center;'>
+              <view style='text-align:center; margin-bottom:10px;'>
+              <text style='font-size:14px;margin-bottom:10px;text-align:center;align-items: center;'>点击快速搜索</text>
+              </view>
+              <view>
+                    <view class='rowView'>
+                        <text id="唐诗" bindtap='search' class="tap" > 唐诗 </text>
+                        <text id="宋词"  bindtap='search'  class="tap" > 宋词 </text>
+                        <text id="元曲"  bindtap='search'  class="tap"> 元曲 </text>
+                        <text id="李白"  bindtap='search'  class="tap"> 李白 </text>
+                        <text id="杜甫"  bindtap='search'  class="tap"> 杜甫 </text>
+                        <text id="陶渊明"  bindtap='search'  class="tap" > 陶渊明 </text>
+                        <text id="李清照"  bindtap='search'  class="tap" > 李清照 </text>
+                    </view>
+              </view>
+        </view>
+       
+</view>

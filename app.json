@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/parts/part",
+    "pages/person/person",
+    "pages/scinfo/scinfo",
+    "pages/search/search",
+    "pages/about/about",
+    "pages/shoucang/shoucang"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "热点文学",
+        "iconPath": "pages/image/hot.png",
+        "selectedIconPath": "pages/image/hot.png",
+        "selectedColor": "#ff0000"
+      },
+      {
+        "pagePath": "pages/parts/part",
+        "text": "文学分类",
+        "iconPath": "pages/image/list.png",
+        "selectedIconPath": "pages/image/list.png",
+        "selectedColor": "#ff0000"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "iconPath": "pages/image/per.png",
+        "selectedIconPath": "pages/image/per.png",
+        "selectedColor": "#ff0000"
+      }
+    ]
+  }
+}

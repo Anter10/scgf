@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="containerView">
+     
+      <scroll-view  style="height:1000px;item-align:center;"  scroll-y="true"  bindscrolltoupper="upper" bindscrolltolower="lower">
+            <view bindtap='bindfocus'  style='height:35px;'>
+                  <view style=' text-align: center;  width:80%; margin-top:20px;padding-top:10px;  background-color: white; height:30px;border-radius: 5px;margin-left:10%;margin-right:10%;'>  
+                   <text style='height:40px;margin-top:35px;color:grey;'>请输入诗词/作者</text>
+                  </view>
+            </view>
+            <view class="singleItem" style='margin-top:20px;'  wx:for="{{items}}" wx:for-index="key" wx:for-item="item">
+                       <view  bindtap='clickview' id='{{key}}'  dataset='hhhh'>
+                              <view class="topView">
+                                  <text class="title">《{{item.title}}》</text>
+                              </view>
+                            
+                              <view class='centerView'>
+                                    <text class="message">{{item.message}}</text>
+                              </view>
+                              <view class="bottomView">
+                                    <text class="author">【{{item.cd}}】{{item.shiren}}</text>
+                              </view>
+                       </view>
+            </view>  
+      </scroll-view>
+</view>
